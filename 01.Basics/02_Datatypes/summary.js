@@ -9,6 +9,24 @@
 // Symbol
 const id = Symbol(123);
 console.log(id.description);
+console.log(typeof id);
 // Big Int
 const bigInt = 8483748378473847384738748374n;
 console.log(bigInt);
+
+// Arrays
+const heros = ["superman", "hulk", "iron man"];
+console.log(heros + " Type of Heros: " + typeof heros);
+
+// Object
+
+const marvel_heros = {
+  id: "",
+  name: "",
+  power: "",
+};
+
+// Functions
+// Object function
+const marvelHerosInfo = function () {};
+console.log(marvelHerosInfo);
